@@ -32,7 +32,7 @@ const FinishedQuiz = (props) => {
       </ul>
 
       <p>
-        Правильно {successCount} из {props.quiz.length}
+        Правильно {successCount} з {props.quiz.length}
       </p>
 
       <div>
@@ -40,7 +40,7 @@ const FinishedQuiz = (props) => {
           Повторить
         </Button>
         <Link to="/">
-          <Button type="success">Перейти в список тестов</Button>
+          <Button type="success">Перейти до списку тестів</Button>
         </Link>
       </div>
     </div>
